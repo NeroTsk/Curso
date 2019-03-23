@@ -6,3 +6,11 @@ h1 {
     background-color: darkviolet;
     color: white;
 }
+.container{
+    background: black;
+    color: white
+}
+.lesson{
+    background: darkcyan;
+}
+
