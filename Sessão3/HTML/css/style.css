@@ -1,16 +1,20 @@
+body {
+    background-image: url(../images/backgroundrun.jpg);
+    color: white;
+    background-attachment: fixed;
+
+}
 h1 {
     color: red;
 }
 
 #first{
     background-color: darkviolet;
+    opacity: 0.3;
     color: white;
-}
-.container{
-    background: black;
-    color: white
 }
 .lesson{
     background: darkcyan;
+    opacity: 0.3;
 }
 
