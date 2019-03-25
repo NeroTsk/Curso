@@ -1,0 +1,17 @@
+nav {
+   background-color: blueviolet;
+   display: inline-block;
+   list-style: none;
+}
+
+nav a {
+    text-decoration: none; 
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
