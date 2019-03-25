@@ -2,6 +2,7 @@ body {
     background-image: url(../images/backgroundrun.jpg);
     color: white;
     background-attachment: fixed;
+    margin:0px;
 
 }
 h1 {
@@ -9,12 +10,25 @@ h1 {
 }
 
 #first{
-    background-color: darkviolet;
-    opacity: 0.3;
+    background-color: rgba(148, 0, 211, 0.425);
     color: white;
 }
 .lesson{
-    background: darkcyan;
-    opacity: 0.3;
+    background: rgba(0, 139, 139, 0.322);
+}
+
+nav {
+    margin: 1px;
+    background-color: rgba(1, 82, 82, 0.521);
+    padding: 10px;
+}
+
+nav a {
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color:white; 
+    text-transform: capitalize;
 }
 
