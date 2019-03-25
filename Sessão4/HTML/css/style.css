@@ -1,7 +1,37 @@
+html {
+    color: #222;
+    font-size: 1em;
+}
+
+body{
+}
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+    background-color: whitesmoke; 
+
+}
+#header {
+    width: 35%;
+    display: inline-block;
+    overflow: hidden;
+}
 nav {
    background-color: blueviolet;
    display: inline-block;
-   list-style: none;
+   float: right;
+   width: 60%;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover, a:active{
+    text-decoration: underline;
+}
+
+nav li {
+    display: inline-block;
 }
 
 nav a {
@@ -10,8 +40,54 @@ nav a {
     border-style: solid;
     border-color: black;
     display: block;
+    padding: 5px;
 }
 
 nav ul {
     list-style: none;
+}
+
+#content {
+    padding: 5px;
+}
+
+img {
+    max-width: 200px;
+    float: left;
+    margin: 10px;
+}
+
+footer {
+    padding: 10px;
+    background-color: blue;
+}
+
+.logo {
+    padding: 5px;
+    background-color: darkmagenta;
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+        margin: 0;
+        background-color: darkcyan; 
+    }
+    #header {
+        width: 100%;
+    }
+    nav {
+        background-color: blueviolet;
+        width: 100%;
+        float: none;
+     }
+     nav a {
+        text-decoration: none; 
+        border: 1px;
+        border-style: solid;
+        border-color: black;
+        display: block;
+        padding: 0px;
+    }
+
 }
