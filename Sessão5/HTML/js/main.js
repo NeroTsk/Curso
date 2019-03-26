@@ -7,7 +7,6 @@ var mycolor = "silver";
 var e = true; /// true or false
 
 console.log(a*b);
-document.write('<br>');
 console.log(mycar+' '+mycolor);
 
 if(!d){
@@ -22,3 +21,16 @@ if(!d){
 //var array = ['j','o','h','n'] 
 
 //output.innerHTML=array[3];
+
+var output = document.getElementById('output');
+var blank = "";
+var firstName = "John";
+var lastName = "Smith";
+var array = ['J', 'o', 'h', 'n'];
+function myName(a, b) {
+var fullName = 5 + a + ' ' + b;
+return fullName;
+}
+firstName = "Mike";
+var myFullName = myName(firstName, lastName);
+output.innerHTML = myFullName;
