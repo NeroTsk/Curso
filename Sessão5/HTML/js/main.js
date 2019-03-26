@@ -46,3 +46,18 @@ function myName(a,b){
 }
 
 myName(firstName,lastName);
+
+//função e mais condição!!!!!
+function htmlOutput(a){
+    var  myOutput;
+    if(a == 1){
+      myOutput = "its working"  
+      console.log(true)
+    }else{
+      myOutput = "isnt working"
+      console.log(false)
+    }
+    output.innerHTML=myOutput;
+  }
+  
+  htmlOutput(1);
