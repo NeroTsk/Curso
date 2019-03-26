@@ -6,14 +6,19 @@ var mycar = "mazda";
 var mycolor = "silver";
 var e = true; /// true or false
 
-document.write(a*b);
+console.log(a*b);
 document.write('<br>');
-document.write(mycar+' '+mycolor);
-document.write('<br>');
-document.write(d);
+console.log(mycar+' '+mycolor);
 
 if(!d){
     console.log('d is false');
 }else{
     console.log('d is true');
 }
+
+//var output = document.getElementById('output')
+
+//var firstname = "john";
+//var array = ['j','o','h','n'] 
+
+//output.innerHTML=array[3];
