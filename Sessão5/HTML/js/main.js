@@ -37,6 +37,7 @@ var output = document.getElementById('output');
 function htmlOutput(myOutput){
     output.innerHTML=myOutput; 
 }
+/*
 var person = {
     age: 25,
     firstName: "John",
@@ -45,15 +46,18 @@ var person = {
     return this.firstName + " " + this.lastName;
     }
     };
+
     person.firstName = "Mike";
     htmlOutput(person.fullName());
-    function pickArray(a) {
-    return myArray[a];
-    }
-    function myName(a, b) {
-    var fullName = a + ' ' + b; // local fullName
-    return fullName;
-    }
+*/    
+var myArray = [1,2,3,4,5,6,7,8]
+newOutput =  "Array List";
+for(var x=0; x<myArray.length; x++){
+  newOutput = newOutput+'<br>'+(x+1)+'. '+myArray[x];
+  
+}
+ htmlOutput(newOutput);
+
     function htmlOutput(myOutput) {
     output.innerHTML = myOutput;
     }
