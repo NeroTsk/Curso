@@ -48,7 +48,7 @@ function myName(a,b){
 myName(firstName,lastName);
 
 //função e mais condição!!!!!
-function htmlOutput(a){
+/*function htmlOutput(a){
     var  myOutput;
     if(a == 1){
       myOutput = "its working"  
@@ -61,3 +61,19 @@ function htmlOutput(a){
   }
   
   htmlOutput(1);
+*/
+
+function myChoice(a){
+    var b = ' ';
+    if((a >=0)&& a <= 0.33){
+      b = 'rock';
+    }else if((a >= 0.33)&& a<= 0.66){
+      b = 'paper';
+    }else if((a >= 0.66)&& a<= 0.99){
+      b = 'scissors';
+    }
+    return b;
+  }
+  
+   var myrandom = Math.random();
+   htmlOutput(myrandom+ '<br>' +myChoice(myrandom));
