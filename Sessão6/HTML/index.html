@@ -14,8 +14,12 @@
         <div id="mybutton">Click here</div>
         <div id="mybutton2">Click here again</div>
         <div class="row">
-            <h1 class="mytitle">The first</h1><p>title</p>
-            <h1 class="mytitle">The Second</h1><p>title</p>
+            <h1 class="mytitle">The first</h1>
+            <p>1ºtitle</p>
+            <h1 class="mytitle">The Second</h1>
+            <p>2ºtitle</p>
+            <h1 class="mytitle">The Third</h1>
+            <p>3ºtitle</p>
 
             <a href="http://www.google.com">go to google</a>
         </div>
@@ -34,9 +38,12 @@
         /// here goes jquery code
         //$('div:not(.mytitle)').click(function(){console.log(this);});
         //$(".mytitle, p").click(function(){alert('Hey Hooo');
-        $("a[href*='google.com']").click(function(){
-            alert('Hey Hooo');
-        });
+        //$("a[href*='google.com']").click(function(){alert('Hey Hooo');});
+        var myparagraph = $('p');
+        console.log(myparagraph)
+        for(x = 0; x<myparagraph.length; x++){
+            console.log(myparagraph[x].innerHTML);
+        }
     });
     ///$(function(){
     ///jquery code goes here
