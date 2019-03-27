@@ -11,8 +11,8 @@
     </head>
 <body>
     <div class="container">
-        <div id="mybutton">Click here</div>
-        <div id="mybutton2">Click here again</div>
+        <div class="mybutton">Click here</div>
+        <div class="mybutton">Click here again</div>
         <div class="row">
             <h1 class="mytitle">The first</h1>
             <p>1ºtitle</p>
@@ -22,16 +22,15 @@
             <p>3ºtitle</p>
 
             <a href="http://www.google.com">go to google</a>
+            <img src="https://render.fineartamerica.com/images/rendered/default/print/8.000/5.125/break/images/artworkimages/medium/1/barcelona-smoke-and-neons-sant-pau-i-la-sagrada-familia-guillem-h-pongiluppi.jpg">
         </div>
     </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
 >
 </script>
 <script>
-    var mybutton = document.getElementById("mybutton");
-    mybutton.addEventListener("click", function(){
-        alert('Oh hey');
-    });
+  
+    
 
     console.log(document.body)
     $(document).ready(function(){
@@ -42,9 +41,28 @@
         /*var myparagraph = $('p');
         console.log(myparagraph)
         for(x = 0; x<myparagraph.length; x++){
-            console.log(myparagraph[x].innerHTML);
-        }*/
-        $('p').css('background-color','blue');
+            console.log(myparagraph[x].innerHTML);}*/
+        //$('p').css('background-color','blue');
+        $('.mybutton').click(function(){
+            console.log('clicked');
+        });
+        $('img').hover(function(){
+            $(this).css('border-color','blue')
+            console.log('overimage');
+
+        },
+        function(){
+            $(this).css('border-color','red');
+        });
+
+        $('p').mouseenter(function(){
+            holder = $(this).html();
+            console.log(holder);
+            $(this).html('on top');
+        });
+        $('p').mouseleave(function(){
+            $(this).html(holder)
+        })
     });
     ///$(function(){
     ///jquery code goes here
