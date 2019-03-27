@@ -43,9 +43,15 @@
         for(x = 0; x<myparagraph.length; x++){
             console.log(myparagraph[x].innerHTML);}*/
         //$('p').css('background-color','blue');
-        $('.mybutton').click(function(){
-            console.log('clicked');
-        });
+        $('.mybutton').on({
+            "click": wasClicked,
+            "mouseover": wasClicked
+            });
+            function wasClicked(event){
+            console.log(event);
+            }
+            });
+        /*});
         $('img').hover(function(){
             $(this).css('border-color','blue')
             console.log('overimage');
@@ -62,8 +68,7 @@
         });
         $('p').mouseleave(function(){
             $(this).html(holder)
-        })
-    });
+        })*/
     ///$(function(){
     ///jquery code goes here
     ///});
