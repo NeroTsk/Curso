@@ -6,8 +6,15 @@
         });
         $('nav a[href^="'+location.pathname.split('HTML/')[1]+'"]').addClass('active')
         $('p').click(function(){
-            console.log($(this));
-            console.log($(this)[0].className);
+            //console.log($(this).html());
+            console.log($(this).text());
+            //$(this).before('before the click');
+            //$(this).after('after the click');
+            //$(this).appendTo('#output');
+            //$(this).prepend('prepend the click');
+            console.log($(this).text());
+            $(this).html('HEY DUDE!!!')
+            //console.log($(this)[0].className);
         $(this).css({"background-color":"purple","font-size":"3em"});
         });
         $('#myInput').change(function(){
