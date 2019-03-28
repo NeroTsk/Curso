@@ -1,5 +1,15 @@
     $(document).ready(function(){
-        console.log(location.pathname.split('HTML/')[1]);
-        $('nav a[href^="'+location.pathname.split('HTML/')[1]+'"]').addClass('active');
+  
+        $('p').click(function(){
+            console.log($(this).hasClass('yellow'));
+            if(($(this).hasClass('yellow'))){
+                //$(this).removeClass('yellow');
+                console.log("hey")
+            }else{
+                //$(this).addClass('yellow')
+                console.log("so long")
+            }
+            $(this).toggleClass('yellow')
+        });
 
     })

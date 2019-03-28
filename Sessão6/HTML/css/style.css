@@ -33,3 +33,7 @@ nav a.active {
 img {
     border: 5px solid red;
 }
+
+.yellow {
+    background: gold;
+}
