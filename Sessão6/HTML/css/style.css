@@ -48,6 +48,15 @@ nav a.active {
     margin: 4em;
     box-shadow: 0 2px 3px 0 black;
 }
+.container a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+}
+.container a:hover{
+    font-size: 2em;
+    color:blueviolet;
+}
 .container img  {
     border: 2px solid gold;
 }
