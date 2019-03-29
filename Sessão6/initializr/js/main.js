@@ -9,7 +9,18 @@ $(document).ready(function(){
     });
     $("#hide").click(function(){
         $(".main").hide(1000);
-    })
+    });
+    $(".box").click(function(){
+        $(this).children().animate({
+            opacity: 0.55,
+            left: "+=150",
+            width: "150%",
+            fontSize: "24px",
+            height: "toggle"},1000,function(){
+                $(this).parent().css({"background-color":"#000000","color":"#ffffff"});
+                $(this).animate({left: "-=150"});
+                });
+    });
    // console.log($("#myFrame").contents());
     //$("li").last().css("background-color","orange");
    /* $("#myFrame").contents().find("div").css("background-color","red");
