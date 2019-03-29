@@ -1,4 +1,13 @@
 $(document).ready(function(){
+
+    $('#btnCotent').click(function(){
+        $("#output").load('temp.html');
+    });
+
+
+
+
+    /*
     $("tr:even").css("background-color", "orange");
     $("a").click(function(){
         event.preventDefault();
@@ -26,6 +35,7 @@ $(document).ready(function(){
 
         });
     });
+    */
    // console.log($("#myFrame").contents());
     //$("li").last().css("background-color","orange");
    /* $("#myFrame").contents().find("div").css("background-color","red");
