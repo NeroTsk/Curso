@@ -5,10 +5,10 @@ $(document).ready(function(){
         $("#output").html("the link you clicked was going to " + $(this).attr('href'));
     });
     $("#show").click(function(){
-        $(".main").show(1000);
+        $(".main").fadein(1000);
     });
     $("#hide").click(function(){
-        $(".main").hide(1000);
+        $(".main").fadeout(1000);
     });
     $(".box").click(function(){
         $(this).children().animate({
