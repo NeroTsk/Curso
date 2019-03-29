@@ -13,13 +13,18 @@ $(document).ready(function(){
     $(".box").click(function(){
         $(this).children().animate({
             opacity: 0.55,
-            left: "+=150",
+            left:"+=200",
             width: "150%",
-            fontSize: "24px",
-            height: "toggle"},1000,function(){
+            fontSize: "24px"
+            },1000,function(){
                 $(this).parent().css({"background-color":"#000000","color":"#ffffff"});
-                $(this).animate({left: "-=150"});
+                $(this).animate({left:"-=200",fontSize:"12px"});
                 });
+    });
+    $(".box1").click(function(){
+        $(this).children().slideToggle("slow", function(){
+
+        });
     });
    // console.log($("#myFrame").contents());
     //$("li").last().css("background-color","orange");
