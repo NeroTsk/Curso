@@ -13,4 +13,6 @@
 }
 div {
     border: 1px solid white;
+    padding: 1em;
+    height: 5em;
 }
