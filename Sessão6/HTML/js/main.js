@@ -1,39 +1,7 @@
     $(document).ready(function(){
-        $('img').click(function(){
-            console.log($(this));
-            console.log($('a').last().attr('href'));
-            console.log($(this).attr('src'))
-        });
-        $('nav a[href^="'+location.pathname.split('HTML/')[1]+'"]').addClass('active')
-        $('p').click(function(){
-            //console.log($(this).html());
-            console.log($(this).text());
-            //$(this).before('before the click');
-            //$(this).after('after the click');
-            //$(this).appendTo('#output');
-            //$(this).prepend('prepend the click');
-            console.log($(this).text());
-            $(this).html('HEY DUDE!!!')
-            //console.log($(this)[0].className);
-        $(this).css({"background-color":"purple","font-size":"3em"});
-        });
-        $('#myInput').change(function(){
-            console.log($(this).val());
-            console.log($('#checkBx'))
-            if($(this).val()== 'yes'){
-                $('#checkBx').prop("checked", true);
-            }else{
-                $('#checkBx').prop("checked", false);
-            }
-        });
-            /*
-            console.log($(this).hasClass('yellow'));
-            if(($(th is).hasClass('yellow'))){
-                //$(this).removeClass('yellow');
-                console.log("hey")
-            }else{
-                //$(this).addClass('yellow')
-                console.log("so long")
-            }
-            $(this).toggleClass('yellow')*/
+        $('a').click(function(t){
+            t.preventDefault();
+            $('#output').load($(this).attr("href"));
+            console.log($(this).attr("href"));
     })
+})

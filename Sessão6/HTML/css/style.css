@@ -59,6 +59,8 @@ nav a.active {
 }
 .container img  {
     border: 2px solid gold;
+    width: 800px;
+    height: 800px;
 }
 
 .yellow {
