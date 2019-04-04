@@ -44,4 +44,26 @@ for ($i=0; $i < 6 ; $i++) {
     mathFuncion();
 }
 
+// DESAFIO 2
+$visits = 0;
+$lastTime = date("d-m-Y H:i:s");
+
+if(isset($_COOKIE['visits'])){
+    $visits = $_COOKIE['visits'];
+}
+if(isset($_COOKIE['lastTime'])){
+    $lastTime = $_COOKIE['lastTime'];
+}
+
+setcookie("visits",$visits+1,time()+360000);
+setcookie("lastTime",$lastTime,time()+360000);
+
+if(!$visits)
+{
+    echo 'Welcome';
+}else{
+    echo 'You\'ve been here before '.$visits.' times last time was '.$lastTime.'<BR>'; 
+}
+
+
 ?>
