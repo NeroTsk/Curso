@@ -11,71 +11,56 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
       crossorigin="anonymous">
     <link rel="Stylesheet" href="css/style.css" type="text/css">
-    <title>Hello, world!</title>
+    <title>Runner</title>
   </head>
   <body>
-    <nav class="navbar navbar-dark  bg-dark">
+    <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
       <a class="navbar-brand" href="index.php">
         <img src="images/logo.png" 
-          width="35" 
-          height="35" 
-          alt="">Lets
+          width="37" 
+          height="37" 
+          alt=""><span>Lets run</span>
       </a>
-        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active" 
-                href="#" 
-                id="home-tab" 
-                data-toggle="tab" 
-                href="#home" 
-                role="tab" 
-                aria-controls="home" 
-                aria-selected="true"
-                >Home
+      <div class="navbar-nav-scroll">
+      <ul class="navbar-nav bd-navbar-nav flex-row">
+      <li class="nav-item">
+              <a class="nav-link active" href="index.php">Home
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" 
-                href="#" 
-                id="about-tab" 
-                data-toggle="tab" 
-                href="#about" 
-                role="tab" 
-                aria-controls="about" 
-                aria-selected="true"
-                >About
+              <a class="nav-link" href="about.php" >About
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" 
-                href="#" 
-                id="gallery-tab" 
-                data-toggle="tab" 
-                href="#gallery" 
-                role="tab" 
-                aria-controls="gallery" 
-                aria-selected="true"
-                >Gallery
+              <a class="nav-link" href="gallery.php">Gallery
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" 
-                href="#" 
-                id="contact-tab" 
-                data-toggle="tab" 
-                href="#contact" 
-                role="tab" 
-                aria-controls="contact" 
-                aria-selected="true"
-                >Contact
+              <a class="nav-link" href="contact.php">Contact
               </a>
             </li>    
-        </ul>
-        <div class="tab-content" id="myTabContent">
-          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-          <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">...</div>
-          <div class="tab-pane fade" id="gallery" role="tabpanel" aria-labelledby="gallery-tab">...</div>
-          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-        </div>
-    </nav>
+      </ul>
+      </div>
+      <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+        <li class="nav-item">
+          <a href="https://www.instagram.com/?hl=pt-br" target="_blank">
+            <img src="images/insta.ico" width="30" height="30">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://twitter.com/login?lang=pt" target="_blank">
+            <img src="images/twitter.png" width="30" height="30">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.facebook.com/" target="_blank">
+            <img src="images/face.ico" width="30" height="30">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://github.com/NeroTsk/Curso/tree/master/Projeto" target="_blank">
+            <img src="images/git.ico" width="30" height="30">
+          </a>
+        </li>
+  </header>
     
