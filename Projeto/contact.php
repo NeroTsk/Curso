@@ -1,10 +1,10 @@
 <?php
-	include('header.php');
+	include('header.html');
 ?>
-<div class="container text-center mt-5">
+<main class="inner cover" role="main">
 	
-
+</main>
 <?php
-	include('footer.php')
+	include('footer.html')
 ?>
  

@@ -6,3 +6,15 @@ body{
 h1{
     color: whitesmoke;
 }
+footer{
+
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    color: gray;
+}
+.inner{ 
+    text-align: center;
+    padding: 2rem;
+    
+}
+
