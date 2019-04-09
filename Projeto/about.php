@@ -18,7 +18,7 @@
 		</div>
 		<hr>
 			<div class="row justify-content">
-				<div class="col-md-5">
+				<div class="col-sm-5">
 					<p>
 					Shadowrun is a science fantasy tabletop role-playing game set in a near-future fictional universe in which cybernetics, 
 					magic and fantasy creatures co-exist. 
@@ -29,7 +29,7 @@
 					two miniature-based tabletop wargames, and multiple video games. 
 					</p>
 				</div>
-				<div class="col-md-3 ">
+				<div class="col-sm-3 ">
 					<img class="about" 
 					src="https://images.gog.com/a72105297c6c1b3085bb6daa7cd326baf0d1299ea2e2a729b8aa0b0e640bef9b_product_card_v2_mobile_slider_639.jpg"
 					alt="Shadow run image"
@@ -38,6 +38,13 @@
 				
 			
 			</div>
+			<hr>
+			<div class="row">
+				<div class="col-sm-5">
+					<p>
+						
+					</p>
+
 	</div>
 </main>
 <?php
