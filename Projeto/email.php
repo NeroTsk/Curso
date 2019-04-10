@@ -7,7 +7,7 @@
  $Msg = $ColetaCampos['mensagem'];
 
 //Informação para a hospedagem e envio do email
-$Email_Remetente = $Msg;
+$Email_Remetente = $Email;
 $Email_Destinatario = "thiagosak@letsgrow.com.br";
 $Email_reply = "{$Email}";
 
