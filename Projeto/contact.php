@@ -4,7 +4,7 @@
 <main class="inner cover" role="main">
 	<div class="row">
 		<div class="col-sm-4">
-			<form class="form-horizontal" action="email.php">
+			<form class="form-horizontal" method="POST" action="emails.php">
 				<fieldset>
 
 					<!-- Form Name -->
@@ -48,7 +48,7 @@
 						name="mensagem">
 					</textarea>
 				</div>
-				<button class="btn btn-primary" type="submit" formmethod="POST">submit</button>
+				<button class="btn btn-primary" type="submit">submit</button>
 				</fieldset>
 			</form>
 		</div>
