@@ -3,9 +3,14 @@ body{
     /*background-image: linear-gradient( 166.6deg,  rgba(1,67,68,1) 1.7%, rgba(0,0,0,1) 67.4% );*/
     /*background-image: linear-gradient( 180.2deg,  rgba(52,58,64,1) 14.6%, rgba(53,108,130,1) 56.3%, rgba(57,124,151,1) 85.5%, rgba(57,107,127,1) 92.5%, rgba(56,107,127,1) 93.9% );*/
     /*background: radial-gradient(circle, rgba(9,107,121,1) 3%, rgba(11,139,162,1) 43%, rgba(7,166,196,1) 62%, rgba(5,180,215,1) 69%, rgba(5,181,216,1) 74%, rgba(0,212,255,1) 100%);*/
+    background-image: url('https://avatars.mds.yandex.net/get-pdb/1750646/263777df-d69f-4480-ad25-af075026bad9/orig');
+    background-size: cover;
+   /* background-image: url('http://i.imgur.com/jhhKa.jpg');*/
     background: rgb(0,25,33);
     background: linear-gradient(180deg, rgba(0,25,33,1) 3%, rgba(0,0,0,1) 70%); 
     background-attachment: fixed;
+    
+    
 }
 video {
     position: fixed;
