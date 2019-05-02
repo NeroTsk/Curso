@@ -1,0 +1,55 @@
+body{
+color:white;
+background: rgb(0,25,33);
+background: black; 
+background-attachment: fixed;
+
+
+}
+video {
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 90%;
+min-height: 90%;
+width: auto;
+height: auto;
+z-index: 0;
+-ms-transform: translateX(-40%) translateY(-40%);
+-moz-transform: translateX(-40%) translateY(-40%);
+-webkit-transform: translateX(-40%) translateY(-40%);
+transform: translateX(-40%) translateY(-40%);
+}
+h1{
+color: whitesmoke;
+}
+
+footer{
+height: 6rem;
+background-color: rgba(0, 0, 0, 0);
+text-align: center;
+color: white;
+text-decoration: none;
+}
+.inner{ 
+text-align: center;
+padding: 2rem;
+
+}
+.m{
+margin: 3rem;
+}
+.about{
+margin: 3% ;
+box-shadow: 0px 0px 5px black;
+}
+
+.wd{
+width: 100rem;
+height: 35rem;
+}
+
+.special{
+text-decoration: none;
+color: white;
+}
